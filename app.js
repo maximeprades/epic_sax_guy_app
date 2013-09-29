@@ -4,7 +4,8 @@
 
     events: {
       'app.activated':'startEpicSaxGuy',
-      'click. stop-it':'stopEpicSaxGuy'
+      'click .stop-it':'stopEpicSaxGuy',
+      'click .play-it':'startEpicSaxGuy'
     },
 
     startEpicSaxGuy: function() {

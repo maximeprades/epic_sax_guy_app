@@ -1,3 +1,5 @@
 <img src="{{assetURL "nono.png"}}" width="300" />
-NO NO
 
+  <div class="row-fluid">
+    <a class="play-it btn btn-success btn-large">Start again!</a>
+  </div>
