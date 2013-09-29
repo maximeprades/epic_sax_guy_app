@@ -3,15 +3,17 @@
   return {
 
     events: {
-      'app.activated':'startEpicSaxGuy'
+      'app.activated':'startEpicSaxGuy',
+      'click. stop-it':'stopEpicSaxGuy'
     },
 
     startEpicSaxGuy: function() {
-        this.$('section[data-main]').show();
-        services.appsTray().show();
-        this.$('epicSax').show();
-    }
+         this.switchTo('epicSax');
+    },
 
+    stopEpicSaxGuy: function(event) {
+        this.switchTo('noSax');
+    }
   };
 
 }());

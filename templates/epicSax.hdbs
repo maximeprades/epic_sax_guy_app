@@ -1,9 +1,10 @@
 <audio src="http://f.cl.ly/items/322S1b0t3L0t193R2U1k/epicmusic.mp3" preload="auto" loop="infinite" autoplay></audio>
 
-<img src="{{assetURL "epicsaxguy.gif"}}" width="300" />
-EPIC SAX
+<img src="{{assetURL "epicsaxguy.gif"}}" width="320" />
 
 
-<div id="refuse_btn">
-    <button class="stopit ember-view btn"><h6>NOOO</h6></button>
- </div>
+  <div class="row-fluid">
+    <a class="stop-it btn btn-success btn-large">Stop Epic Sax Guy</a>
+  </div>
+
+
